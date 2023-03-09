@@ -56,10 +56,19 @@ for (let i = midpos+ 1; i < arr2.length; i++) {
 rightarray.sort()
 
 // log the right part of the array
-console.log(rightarray)
+// console.log(rightarray)
+
+// add the two arrays and make it one
+const sortedarray2 = leftarray.concat(rightarray)
+
+console.log(sortedarray2)
 // check why 32 is in between this?
 // left pos is an array
 // right pos is an array
+
+// does this work?
+console.log(sortedarray2.sort())
+
 
 // implement this again while these two being arrays
 
