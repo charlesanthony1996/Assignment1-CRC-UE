@@ -16,25 +16,63 @@ for (let i =0 ;i < arr.length - 1; i++) {
     // console.log(sorted)
 }
 
-console.log(sorted)
+// uncomment this
+// console.log(sorted)
 
 // check for duplicates here and take them out
 
 // merging after sorting an array
 
-arr2 = [1,5,2,6,3,6,5,7,4,32,2]
+const arr2 = [1,5,2,6,3,6,5,7,4,32,2]
 
 // breaking the array into two parts
 // left and right
-left = []
-right = [] 
+leftarray = []
+rightarray = [] 
 
-for (let i = 0; i < arr2.length - 1;i++) {
-    for(let j = 1; j < arr2.length - i - 1; j++)
-    {
-        if (arr2[j]> arr[j+ 1]) {
-            console.log("do the comparison check")
-        }
-    }
+midpos = Math.floor(arr2.length / 2)
+rightpos = arr2.slice(midpos)
+
+// left part
+for (let i = 0; i < midpos; i++) {
+    // console.log(arr2[i])
+    leftarray.push(arr2[i])
 }
+
+// log the left part of the array
+// console.log(left)
+// sort the left side
+leftarray.sort()
+console.log(leftarray)
+
+// right part
+for (let i = midpos+ 1; i < arr2.length; i++) {
+    // console.log(arr2[i])
+    rightarray.push(arr2[i]);
+}
+
+
+// sort the right side
+rightarray.sort()
+
+// log the right part of the array
+console.log(rightarray)
+// check why 32 is in between this?
+// left pos is an array
+// right pos is an array
+
+// implement this again while these two being arrays
+
+
+
+
+
+// for (let i = 0; i < arr2.length - 1;i++) {
+//     for(let j = 1; j < arr2.length - i - 1; j++)
+//     {
+//         if (arr2[j]> arr[j+ 1]) {
+//             console.log("do the comparison check")
+//         }
+//     }
+// }
 
