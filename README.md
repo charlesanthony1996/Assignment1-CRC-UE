@@ -71,7 +71,7 @@
 
 ### License
 
-* Its the Crazymonkeylicense :)
+* mit
 
 ### Contact
 
