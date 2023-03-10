@@ -1,0 +1,26 @@
+A.bubble sort algorithm
+
+1.how i understood this algrithm is by understanding the basic swapping
+2.after this is done its checking for duplicates if there are any
+3. the duplicates function could also be recursive but i do not know how it will affect time complexity
+4. but this gives out the final sorted array
+5.the swapping is shown in the main.cs file and is also a bit explained in the readme.md
+
+
+B.merge sort algorithm
+
+1.this algorithm is about getting the mid point, breaking the array into two parts
+2. having them in seperate arrays on the left and the right
+3. then sorting them and concatenating them in the end
+4. in the simple explanation in the main.js file the midpoint is static
+5.but in the mergesort the point is dynamic. this makes it possible for every leftover element to get sorted
+6. this is the change that has to be shown in the main.js file
+7.the two while loops take care of this problem.
+8. finally it is fully sorted and merged
+
+
+*** you can run the bubblesort.c file by this command -> gcc bubblesort.c && ./a.out
+
+*** more languages to come in the future. updates will be made to my github repo as they are available
+
+
